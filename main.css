@@ -1,0 +1,41 @@
+.container {
+  border: 1px solid #1FC5D8;
+
+}
+
+button {
+  background-color: #1FC5D8;
+  color: white;
+  width: 400px;
+  min-height: 50px;
+  Text-align: left;
+  font-size: 
+
+}
+
+
+
+/*this was my original layout....*/
+ul {
+  border-color: solid #1FC5D8;
+  min-height: 10px;
+  max-height: 50px;
+  border-width: 1px, #1FC5D8;
+  font-size: 
+}
+
+li {
+  background-color: #1FC5D8;
+  color: white;
+  width: 400px;
+  min-height: 50px;
+
+}
+
+p {
+  color: black;
+  width: 400px;
+  background-color: white;
+  width: 400px;
+  min-height: 50px;
+}
