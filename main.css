@@ -1,15 +1,18 @@
 body {
+  
 }
 
+div {
+
+}
 
 ul {
   border: 2px solid #1FC5D8;
   width: 400px;
-  height: 400px;
+  height: 300px;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  
+
 }
 
 button {
@@ -26,6 +29,20 @@ p {
   color: grey;
   width: 380px;
   padding-left: 10px;
-  background-color: white;
+  background-color: #fff;
+
 }
 
+.accordion {
+  margin: 0;
+  max-height: 0;
+  overflow: visible;
+  background-color: #fff;
+  transition: all 0.4s ease;
+
+}
+
+.accordion.open {
+  padding: 10px;
+  max-height: 400px;
+}
