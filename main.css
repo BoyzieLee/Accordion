@@ -1,92 +1,7 @@
-/*body {
-  margin-left: 33%;
-  margin-right: 33%; 
-  margin-top: 20%;
-}
 
-div {
-  overflow: hidden;
-  width: 400px;
-  height: 300px;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-button {
-  background-color: #1FC5D8;
-  color: white;
-  width: 400px;
-  min-height: 50px;
-  Text-align: left;
-  font-size: 18px;
-}
-
-div section {
-  overflow: hidden;
-  cursor: pointer;
-}
-
-div section:hover {
-
-}
-
-p {
-  display: none;
-  color: grey;
-  width: 380px;
-  padding-left: 10px;
-  background-color: #fff;
-}
-
-div section:after {
-  position: relative;
-}
-
-div section:target {
-  background: #fff;
-  padding: 10px;
-}
-
-div section:target:hover {
-  background: #fff;
-}
-
-div section:target button {
-  width: 100%;
-}
-
-div section:target button a {
-  padding: 0;
-}
-
-div section:target p {
-  /*padding: 10px;
-  max-height: 400px;*/
-/*  display: block;
-  position: relative;
-  top: -15px;
-}
-
-
-div section button a {
-  margin: 0;
-  max-height: 0;
-  overflow: visible;
-  background-color: #fff;
-  transition: all 0.4s ease;
-
-}*/
-
-/*.accordion.open {
-  padding: 10px;
-  max-height: 400px;
-}
-*/
 
 html { 
   font-size: 100%; 
-  overflow-y: scroll; 
 }
 body { 
   margin: 0; 
@@ -99,20 +14,21 @@ body button input select textarea {
 }
 
 h1 {
-  text-align: center;
+  text-align: left;
+  margin-left: 10%;
 }
 /*Define Accordion box*/
 .accordion { 
   overflow: hidden;
   margin-left: 33%;
   margin-right: 33%; 
-  margin-top: 20%;
+  margin-top: 5%;
   background-color: #1FC5D8;
   color: white;
   width: 400px;
 }
 
-/*open slide*/
+/*open box*/
 .accordion section:target { 
   background:#FFF; 
   padding:10px;
@@ -125,7 +41,9 @@ h1 {
   transition: all 0.6s ease; 
 
 }
-.accordion section:target h2 a { 
+/*inside open box*/
+.accordion section:target h2 a {
+  font-size: 20px; 
   color:#333; 
   padding:0;
 }
@@ -141,7 +59,7 @@ h1 {
   transition: all 0.6s ease; 
 }
 
-/*closed slide*/
+/*closed box*/
 .accordion section { 
   float:left; 
   overflow:hidden; 
@@ -163,10 +81,3 @@ h1 {
   font-size:24px;
   color:#000;
   font-weight:bold;}
-
-
-
-
-
-
-
